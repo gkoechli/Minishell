@@ -28,11 +28,9 @@ static int	check_null(char *str)
 {
 	int		i;
 	int		bol;
-	int		pipe;
 
 	i = 0;
 	bol = 0;
-	pipe = 0;
 	while (str[i])
 	{
 		if (str[i] != ' ' && str[i] != '|')

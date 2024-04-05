@@ -23,10 +23,8 @@ void	free_env(void)
 void	built_exit(t_cmd *cmds)
 {
 	int		i;
-	int		mod;
 
 	i = 0;
-	mod = 1;
 	if (cmds->args[1] != NULL)
 	{
 		while (cmds->args[1][i] && g_shell.error != 1)
